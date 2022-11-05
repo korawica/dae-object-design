@@ -1,0 +1,35 @@
+datasets:
+  local.sandbox:
+    connection: file:///${PROJ_PATH}/data/sandbox
+  postgresql.sandbox:
+    connection: psycogpg://scghifaai:${DB_PG_PASS}@${DB_PG_HOST}/scgh_dev_db
+  sqlite.sandbox:
+    connection: sqlit:///${PROJ_PATH}/data/sandbox/scgh_dev.db
+  sqlserver.sandbox:
+    connection: pyodbc://korawica@scg.com:${DB_MSS_PASS}@${DB_MSS_HOST}/DWHCTRLDEV?driver=ODBC+Driver+17+for+SQL+Server
+schemas:
+  defaults:
+    catalog.csv:
+    - type
+    - properties
+    catalog.excel:
+    - type
+    - properties
+    catalog.json:
+    - type
+    - properties
+    catalog.pg:
+    - type
+    - properties
+  models:
+    catalog:
+    - type
+    - properties
+    - retentions
+  pipelines:
+    node:
+    - type
+    - processes
+    pipeline: []
+trigger: ('test' || "test" && 'test')
+trigger2: ('test', "test", 'test')

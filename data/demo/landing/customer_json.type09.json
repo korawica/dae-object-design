@@ -1,0 +1,52 @@
+{
+  "schema": {
+    "fields": [
+      {
+        "name": "index",
+        "type": "integer"
+      },
+      {
+        "name": "product_id",
+        "type": "integer"
+      },
+      {
+        "name": "product_type",
+        "type": "string"
+      },
+      {
+        "name": "attribute",
+        "type":"string"
+      }
+    ],
+    "primaryKey": [
+      "index"
+    ],
+    "pandas_version": "1.4.0"
+  },
+  "data": [
+    {
+      "index": 1,
+      "product_id": 1004,
+      "product_type": "inventory",
+      "attribute": {
+        "color": "red",
+        "material": "bronze",
+        "brand": "Zi Chang",
+        "weigh": 40,
+        "high": 10.5
+      }
+    },
+    {
+      "index": 2,
+      "product_id": 1005,
+      "product_type": "inventory",
+      "attribute": {
+        "color": "blue",
+        "material": "silver",
+        "brand": "Atomic",
+        "weigh": 10,
+        "high": 12.75
+      }
+    }
+  ]
+}

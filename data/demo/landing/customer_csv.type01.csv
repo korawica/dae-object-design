@@ -1,0 +1,7 @@
+id|name|age|phone|register_date|active
+1|John\@email.com||01-1341|2022-01-01|Yes
+2|Sara Toronto|37|01-2201|2022-01-01|true
+3|||04-1772|2022-01-01|false
+4|Tome Vee|15|02-1821|2022-01-01|No
+5|Vimmy|23|08-2215|2022-01-01|True
+6|Queen J.|19|01-1003|2022-01-01|Yes

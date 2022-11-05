@@ -1,0 +1,35 @@
+{
+  "columns": [
+    "product_id",
+    "product_type",
+    "attribute"
+  ],
+  "index": [
+    1,
+    2
+  ],
+  "data": [
+    [
+      1004,
+      "inventory",
+      {
+        "color": "red",
+        "material": "bronze",
+        "brand": "Zi Chang",
+        "weigh": 40,
+        "high": 10.5
+      }
+    ],
+    [
+      1005,
+      "inventory",
+      {
+        "color": "blue",
+        "material": "silver",
+        "brand": "Atomic",
+        "weigh": 10,
+        "high": 12.75
+      }
+    ]
+  ]
+}

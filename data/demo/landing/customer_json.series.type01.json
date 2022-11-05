@@ -1,0 +1,20 @@
+{
+  "index": [
+    "product_id",
+    "product_type",
+    "color",
+    "material",
+    "brand",
+    "weigh",
+    "high"
+  ],
+  "data": [
+    "1004",
+    "inventory",
+    "red",
+    "bronze",
+    "Zi Chang",
+    40,
+    10.5
+  ]
+}

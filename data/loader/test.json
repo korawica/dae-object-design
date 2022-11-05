@@ -1,0 +1,147 @@
+[
+  {
+    "product_id": "1004",
+    "product_type": "inventory",
+    "attribute": {
+      "color": "red",
+      "material": "bronze",
+      "brand": "Zi Chang",
+      "weigh": 40,
+      "high": 10.5
+    },
+    "modified": "2021-12-20 00:47:06.667916",
+    "product_name": "D 0001",
+    "purchase_details": {
+      "vendor_name": "Zi Chang",
+      "vendor_id": "000598",
+      "vendor_product_code": "Z1004",
+      "purchase_price": 10,
+      "purchase_uom": "PC",
+      "start_date": null,
+      "end_date": "2025-12-31",
+      "location": "USA",
+      "service": null,
+      "type": "sold"
+    },
+    "sales_details": {
+      "sales_price": 12,
+      "sales_uom": "PC"
+    }
+  },
+  {
+    "product_id": "1005",
+    "product_type": "inventory",
+    "attribute": {
+      "color": "blue",
+      "material": "bronze",
+      "brand": "Zi Chang",
+      "weigh": 40,
+      "high": 10.5
+    },
+    "modified": "2021-12-25 13:47:06.667916",
+    "product_name": "D 0002",
+    "purchase_details": {
+      "vendor_name": "Zi Chang",
+      "vendor_id": "000598",
+      "vendor_product_code": "Z1005",
+      "purchase_price": 15,
+      "purchase_uom": "PC",
+      "start_date": null,
+      "end_date": "2025-12-31",
+      "location": "USA",
+      "service": null,
+      "type": "sold"
+    },
+    "sales_details": {
+      "sales_price": 25,
+      "sales_uom": "PC"
+    }
+  },
+  {
+    "product_id": "1010",
+    "product_type": "inventory",
+    "attribute": {
+      "color": "black",
+      "material": "silver",
+      "brand": "Polar AZ",
+      "weigh": 15,
+      "high": 5.5
+    },
+    "modified": "2021-12-21 12:47:06.667916",
+    "product_name": "Aro II",
+    "purchase_details": {
+      "vendor_name": "Polar AZ Corp",
+      "vendor_id": "000021",
+      "vendor_product_code": "PA1010",
+      "purchase_price": 210,
+      "purchase_uom": "PC",
+      "start_date": null,
+      "end_date": "2030-12-31",
+      "location": "USA",
+      "service": null,
+      "type": "sold"
+    },
+    "sales_details": {
+      "sales_price": 299,
+      "sales_uom": "PC"
+    }
+  },
+  {
+    "product_id": "1035",
+    "product_type": "inventory",
+    "attribute": {
+      "color": "red",
+      "material": "silver",
+      "brand": "Polar AZ",
+      "weigh": 13.5,
+      "high": 4.5
+    },
+    "modified": "2021-12-05 15:47:06.667916",
+    "product_name": "Aro IV",
+    "purchase_details": {
+      "vendor_name": "Polar AZ Corp",
+      "vendor_id": "000021",
+      "vendor_product_code": "PA1035",
+      "purchase_price": 320,
+      "purchase_uom": "PC",
+      "start_date": null,
+      "end_date": "2030-12-31",
+      "location": "USA",
+      "service": null,
+      "type": "sold"
+    },
+    "sales_details": {
+      "sales_price": 399,
+      "sales_uom": "PC"
+    }
+  },
+  {
+    "product_id": "2001",
+    "product_type": "inventory",
+    "attribute": {
+      "color": "green",
+      "material": "bronze",
+      "brand": "Zi Chang",
+      "weigh": 120,
+      "high": 25
+    },
+    "modified": "2021-12-25 13:47:06.667916",
+    "product_name": "200 Pro",
+    "purchase_details": {
+      "vendor_name": "Zi Chang",
+      "vendor_id": "000598",
+      "vendor_product_code": "Z2001",
+      "purchase_price": 1005,
+      "purchase_uom": "PC",
+      "start_date": null,
+      "end_date": "2025-12-31",
+      "location": "USA",
+      "service": null,
+      "type": "sold"
+    },
+    "sales_details": {
+      "sales_price": 1349,
+      "sales_uom": "PC"
+    }
+  }
+]

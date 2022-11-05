@@ -1,0 +1,55 @@
+# Parameter Configuration file with YAML format.
+# :structure:
+#
+#     config_environment: true, false
+#           - Environment option set be true for use environment name with stage format.
+#
+#     config_domain: true, false
+#     config_connection: '<connection-url>'
+#     config_metadata: '<connection-url>'
+#     config_logging: '<connection-url>'
+#     config_object: '<connection-url>'
+# ---------------------------------------------------------------------------------------
+engine:
+    config_environment: false
+    config_domain: true
+    config_connection: "file://${APP_PATH}/conf"
+#    config_metadata: "file//:${APP_PATH}/data"
+    config_metadata: "sqlite://${APP_PATH}/data"
+    config_logging: "file://${APP_PATH}/logs/register"
+    config_object: "application.core.objects"
+#    config_stage_archive: false
+    config_stage_archive: true
+    config_stage_archive_path: 'file://${APP_PATH}/data/.conf/.archive'
+    config_loader_secrets: true
+    config_loader_function: false
+
+# ---------------------------------------------------------------------------------------
+# The Stage for configuration data version control
+# :structure:
+#     <stage-name>:
+#          format: "{name:%n}.{compress:%g}"
+#          rules:
+#              timestamp: 4
+#              timestamp_metric: 'months'
+#              version: '0.0.4'
+#              compression: 'gzip'
+#
+# ---------------------------------------------------------------------------------------
+stages:
+    staging:
+        format: "{name:%n}.{timestamp:%Y%m%d_%H%M%S}"
+        rules:
+            timestamp: 15
+            timestamp_metric: 'minutes'
+    persisted:
+        format: "{name:%n}.{version:v%m.%n.%c}"
+        rules:
+            version: '0.3.3'
+    curated:
+        format: "{domain:%n}_{name:%n}.{compress:%-g}"
+        rules:
+            compress: "gzip"
+#    test:
+#        format: "{timestamp:%Y}_{name}_{timestamp:%m%d}_{name}"
+# ---------------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+customer_id|product_id|order_sales|value_max|value_margin
+1|00A|2|300.0|280.0
+2|00B|2|250.0|150.0
+4|00A|2|300.0|270.0
+4|00B|2|200.0|150.0

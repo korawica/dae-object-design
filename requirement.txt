@@ -1,0 +1,72 @@
+# ======================================
+# Datetime Dependency
+# -------------------
+# `pendulum`: MIT License :
+# `arrow`: 	Apache License 2.0 :
+# `delorean`:
+# `pytz`: : Time zone conversion for `datetime`
+# -------------------
+pendulum==2.1.2
+pytz==2022.2.1
+
+# ======================================
+# Test Dependency
+# pytest, coverage, tox
+# -------------------
+# `perfplot`: GPL-3.0 license : Performance analysis for Python snippets
+# -------------------
+perfplot==0.10.2
+
+# ======================================
+# Deploy & CI/CD Dependency
+# pre-commit, bump-version
+# -------------------
+# -------------------
+
+# ======================================
+# Core
+# -------------------
+# `pyyaml`:
+# `tomlkit`, `tomli`
+# `deepdiff`: MIT License :
+# `pandas`:
+# `openpyxl`: : For reading excel file with the `pandas`
+# `sqlalchemy`: : For DBMS connection
+#   - `psycopg2`: Postgres connection
+#   - `pyodbc`: ODBC connection
+# `fsspec`: : For storage connection
+#   - `s3fs`: : AWS S3 connection
+#   - `adlfs`: : Azure Data Lake connection
+#   - `gcsfs`: : Google Cloud Storage connection
+# -------------------
+pyyaml==6.0
+toml==0.10.2
+deepdiff==5.8.1
+pandas==1.5.0
+openpyxl==3.0.10
+sqlalchemy==1.4.41
+psycopg2==2.9.3
+pyodbc==4.0.34
+fsspec==2022.8.2
+s3fs==2022.8.2
+adlfs==2022.10.0
+gcsfs==2022.8.2
+boto3==1.24.88
+sshtunnel==0.4.0
+
+# ======================================
+# Core-Analytic
+# -------------------
+scipy==1.9.2
+
+# ======================================
+# Class Model
+# -------------------
+pydantic=1.9.1
+typing-extensions=4.3.0
+
+# ======================================
+# CLI
+# -------------------
+# `typer` power by `click`
+# `click`
